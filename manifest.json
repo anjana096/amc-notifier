@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Notification Extension",
+  "version": "1.0",
+  "description": "Displays notifications from a specific URL.",
+  "permissions": ["notifications", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
